@@ -4,10 +4,10 @@
  */
 // var mock = require('./mockConfig');
 var generator = require('./lib/express-mock');
-var mock = generator();
+// var mock = generator();
 
 module.exports = function(options) {
-  var mock = generator(options);
+  var mock = generator(options || {});
   return function(req, res, next){
     // console.log(req.url);
     var url = req.url;
