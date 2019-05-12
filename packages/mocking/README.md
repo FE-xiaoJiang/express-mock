@@ -111,6 +111,3 @@ data为对象数组或者普通数组的时候，需要指定数组长度，指�
   size: 'key.size=10'
 }
 ```
-### 如何使用
-```http:xxx.com/mockArray?mock=true```
-带上?mock=true的请求，会进入mock逻辑，返回mock数据

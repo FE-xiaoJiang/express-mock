@@ -3,7 +3,7 @@
  * @type {[type]}
  */
 // var mock = require('./mockConfig');
-var generator = require('./lib/express-mock');
+var generator = require('./packages/mocking');
 // var mock = generator();
 
 module.exports = function(options) {

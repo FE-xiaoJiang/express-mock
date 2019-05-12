@@ -1,0 +1,35 @@
+{
+  "name": "mocking-service",
+  "version": "1.0.1",
+  "description": "mock data service",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FE-xiaoJiang/express-mock.git"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha test/index.js"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "fe-xiaojiang",
+  "license": "ISC",
+  "dependencies": {
+    "random-date-generator": "^1.0.2",
+    "uuid": "^3.3.2",
+    "string-random": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "istanbul": "^0.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/FE-xiaoJiang/express-mock/issues"
+  },
+  "homepage": "https://github.com/FE-xiaoJiang/express-mock#readme"
+}
