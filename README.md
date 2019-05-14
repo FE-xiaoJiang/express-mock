@@ -53,6 +53,15 @@ var mocking = require('express-mocking')({
 
 app.use(mocking);
 ```
+### 支持类型关键字
+* int
+* string
+* date-time
+* timestamp：时间戳
+* id：唯一uuid
+* {}：对象
+* []：数组
+* 不变量：比如（errMsg:'成功',errCode:0）
 
 ### options
 #### mockConfig

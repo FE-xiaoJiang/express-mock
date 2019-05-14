@@ -1,15 +1,15 @@
 # express-mock
-mock API data for express
+mock API data easy
 
 ### Setup
 -----
 
 ```sh
-npm install express-mocking
+npm install mocking-service
 ```
 
 ```js
-var mocking = require('express-mocking')({
+var mocking = require('mocking-service')({
     mockConfig: {
       '/mockArray': {
         'data': [{
@@ -51,8 +51,16 @@ var mocking = require('express-mocking')({
     }
 });
 
-app.use(mocking);
 ```
+### 支持类型关键字
+* int
+* string
+* date-time
+* timestamp：时间戳
+* id：唯一uuid
+* {}：对象
+* []：数组
+* 不变量：比如（errMsg:'成功',errCode:0）
 
 ### options
 #### mockConfig
